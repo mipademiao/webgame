@@ -1,0 +1,106 @@
+body {
+	background-image: url(../Images/green_grass.jpg);
+	background-size: cover;
+}
+
+.box {
+	border: solid px black;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url(../Images/haystack4.png);
+	margin-top: auto;
+	animation: box 1s steps(4, start) 0ms infinite normal backwards;
+}
+
+@keyframes box {
+	0% {
+		background-position: 0 0
+	}
+	100% {
+		background-position: 250px 0
+	}
+}
+
+#h {
+	position: absolute;
+	border: solid 1px black;
+	background-color: chartreuse;
+}
+
+#s {
+	position: absolute;
+	border: solid 1px black;
+	background-color: coral;
+}
+
+#box1 {
+	position: absolute;
+}
+
+#box2 {
+	position: absolute;
+}
+
+#box3 {
+	position: absolute;
+}
+
+#wrap {
+	position: relative;
+	border: solid 10px black;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../Images/rose516.png);
+	background-size: cover;
+	overflow: hidden;
+}
+
+#hwall {
+	position: absolute;
+	width: 250px;
+	height: 100px;
+	background-image: url(../Images/redwall2_small.png);
+}
+
+#swall {
+	position: absolute;
+	width: 100px;
+	height: 190px;
+	background-image: url(../Images/redwall2_small.png);
+}
+
+.ex {
+	width: 400px;
+	position: relative;
+	float: left;
+}
+
+.gif_ex {
+	border: solid 5px;
+}
+
+.text_ex {
+	font-family: 微軟正黑體;
+	color: white;
+	font-size: 14pt;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#one {
+	margin-left: 20%;
+	margin-top: 15px;
+}
+
+#two {
+	margin-left: 17%;
+	margin-top: 15px;
+}
+
+#three {
+	margin-left: 43%;
+	margin-top: 15px;
+}
